@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/curtana
+DEVICE_PATH := device/xiaomi/miatoll
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

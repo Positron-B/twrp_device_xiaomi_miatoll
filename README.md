@@ -1,4 +1,4 @@
-# Android device tree for Redmi Redmi Note 9S (curtana)
+# TWRP device tree for Xiaomi SM6250 (miatoll)
 
 ```
 #
