@@ -7,8 +7,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_curtana.mk
+     $(LOCAL_DIR)/twrp_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_curtana-userdebug \
-    twrp_curtana-eng
+    twrp_miatoll-userdebug \
+    twrp_miatoll-eng

@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/curtana
+DEVICE_PATH := device/xiaomi/miatoll
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -25,7 +25,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := curtana
+TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll
 
 # File systems
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 134217728
