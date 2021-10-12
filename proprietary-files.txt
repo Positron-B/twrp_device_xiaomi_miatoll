@@ -1,0 +1,11 @@
+# Extracted from lineage-19.1-20220930-nightly-miatoll-signed.zip
+
+# Firmware
+vendor/firmware/Drv2624Date.ini
+vendor/firmware/aw8624_haptic.bin
+vendor/firmware/aw8624_rtp_1.bin
+vendor/firmware/drv2624.bin
+vendor/firmware/drv2624.rtp
+vendor/firmware/novatek_ts_tianma_fw.bin
+vendor/firmware/novatek_ts_tianma_mp.bin
+vendor/firmware/osc_rtp_24K_5s.bin
