@@ -18,3 +18,7 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_curtana.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_curtana-userdebug \
+    omni_curtana-eng
