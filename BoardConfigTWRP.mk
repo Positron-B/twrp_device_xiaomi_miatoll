@@ -45,3 +45,6 @@ TW_THEME := portrait_hdpi
 
 # USB
 TW_EXCLUDE_DEFAULT_USB_INIT := true
+
+# Vibrator
+TW_SUPPORT_INPUT_AIDL_HAPTICS := true

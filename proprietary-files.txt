@@ -9,3 +9,9 @@ vendor/firmware/drv2624.rtp
 vendor/firmware/novatek_ts_tianma_fw.bin
 vendor/firmware/novatek_ts_tianma_mp.bin
 vendor/firmware/osc_rtp_24K_5s.bin
+
+# Vibrator
+vendor/bin/hw/vendor.qti.hardware.vibrator.service:system/bin/vendor.qti.hardware.vibrator.service
+vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml
+vendor/lib64/libqtivibratoreffect.so
+vendor/lib64/vendor.qti.hardware.vibrator.impl.so

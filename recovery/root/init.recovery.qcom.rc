@@ -27,6 +27,7 @@
 
 on init
     write /sys/class/backlight/panel0-backlight/brightness 200
+    write /sys/class/leds/vibrator/trigger "transient"
     setprop sys.usb.configfs 1
 
 on property:ro.boot.usbcontroller=*
@@ -39,3 +40,9 @@ on fs
 
 on boot
     start health-hal-2-1
+
+service vendor.qti.vibrator /system/bin/vendor.qti.hardware.vibrator.service
+    user root
+    group root
+    setenv LD_LIBRARY_PATH /vendor/lib64:/system/lib64
+    seclabel u:r:recovery:s0
