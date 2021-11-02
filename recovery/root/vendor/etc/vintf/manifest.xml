@@ -1,0 +1,6 @@
+<manifest version="2.0" type="device" target-level="4">
+    <hal format="aidl">
+        <name>android.hardware.vibrator</name>
+        <fqname>IVibrator/default</fqname>
+    </hal>
+</manifest>
