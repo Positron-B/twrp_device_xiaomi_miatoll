@@ -41,7 +41,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_miatoll
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_miatoll
 
 # Kernel
-BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom service_locator.enable=1 swiotlb=1 androidboot.usbcontroller=a600000.dwc3 loop.max_part=7 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom service_locator.enable=1 swiotlb=1 androidboot.usbcontroller=a600000.dwc3 loop.max_part=7 androidboot.selinux=permissive audit=0
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image
 BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
