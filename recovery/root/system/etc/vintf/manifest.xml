@@ -1,0 +1,12 @@
+<manifest version="2.0" type="framework">
+    <hal format="hidl">
+        <name>android.hidl.manager</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::IServiceManager/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hidl.token</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::ITokenManager/default</fqname>
+    </hal>
+</manifest>
