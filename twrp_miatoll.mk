@@ -15,6 +15,11 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
+# Encryption
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
+
 PRODUCT_DEVICE := miatoll
 PRODUCT_NAME := twrp_miatoll
 PRODUCT_BRAND := Redmi

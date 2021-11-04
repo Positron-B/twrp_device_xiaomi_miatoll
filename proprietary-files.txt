@@ -10,6 +10,29 @@ vendor/firmware/novatek_ts_tianma_fw.bin
 vendor/firmware/novatek_ts_tianma_mp.bin
 vendor/firmware/osc_rtp_24K_5s.bin
 
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:system/bin/android.hardware.gatekeeper@1.0-service-qti
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:system/bin/android.hardware.keymaster@4.1-service-qti
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterutils.so
+vendor/lib64/libqcbor.so
+vendor/lib64/libqtikeymaster4.so
+
+# QSEECOMD
+vendor/bin/qseecomd:system/bin/qseecomd
+vendor/lib64/libdiag.so
+vendor/lib64/libdrm.so
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libqisl.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/librpmb.so
+vendor/lib64/libssd.so
+vendor/lib64/libtime_genoff.so
+
 # Vibrator
 vendor/bin/hw/vendor.qti.hardware.vibrator.service:system/bin/vendor.qti.hardware.vibrator.service
 vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml
