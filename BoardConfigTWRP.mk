@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# APEX
+TW_EXCLUDE_APEX := true
+
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
