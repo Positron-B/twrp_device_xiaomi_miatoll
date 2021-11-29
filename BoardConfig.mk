@@ -78,6 +78,10 @@ TW_INCLUDE_CRYPTO_FBE := true
 TW_NO_EXFAT_FUSE := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 
+TW_BRIGHTNESS_PATH := /sys/class/backlight/panel0-backlight/brightness
+TW_MAX_BRIGHTNESS := 4095 
+TW_DEFAULT_BRIGHTNESS := 2048 
+
 TARGET_RECOVERY_DEVICE_MODULES += \
     libion
 
