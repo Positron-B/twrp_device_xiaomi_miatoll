@@ -17,6 +17,7 @@ TW_NO_SCREEN_BLANK := true
 
 # Filesystem tools
 TW_INCLUDE_NTFS_3G := true
+TW_NO_EXFAT_FUSE := true
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
