@@ -59,5 +59,6 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 RECOVERY_SDCARD_ON_DATA := true
+TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
