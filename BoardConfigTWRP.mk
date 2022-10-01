@@ -12,6 +12,9 @@ TW_BRIGHTNESS_PATH := /sys/class/backlight/panel0-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 2744
 TW_MAX_BRIGHTNESS := 4095
 
+# Display
+TW_NO_SCREEN_BLANK := true
+
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
