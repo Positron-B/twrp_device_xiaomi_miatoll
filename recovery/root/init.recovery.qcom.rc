@@ -43,6 +43,9 @@ on fs
 on boot
     start health-hal-2-1
 
+on property:ro.crypto.state=encrypted
+    exec u:r:recovery:s0 -- /system/bin/fixup_fstab.sh
+
 service vendor.qti.vibrator /system/bin/vendor.qti.hardware.vibrator.service
     user root
     group root
